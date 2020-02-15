@@ -46,13 +46,16 @@ body {
 }
 
 .fixed {
+    margin-left: auto;
+    margin-right: auto;
     position: fixed;
     top: 0;
     height: 62px;
-    background: #fff;
+    background: rgba(78, 78, 78, 0.5);
     z-index: 10;
     border: none;
     width: 100%;
+    
 }
 
 .header__nav {
@@ -580,9 +583,10 @@ margin: 10px;
 
                 .info__left {
                     
-                    
-                    height: 60%;
-                        width: 20%;
+                    border: 1px solid rgb(114, 114, 114);
+                    border-radius: 25px;
+                    height: 50px;
+                        width: 50px;
                     align-items: flex-start;
 
 
@@ -590,7 +594,7 @@ margin: 10px;
                 }
 
                 .info__right {
-                    width: 77%;
+                    width: 79%;
                     .right__title {
                         
                         padding: 3px;
@@ -707,7 +711,7 @@ height: 500px;
 
 //background-color: rgb(236, 236, 236);
 
-background: url("/assets/img/backMenu.jpg") repeat-x; 
+background: url("/assets/img/backMenu1.jpg") repeat-x; 
 background-attachment: fixed;
   animation: slide 60s linear infinite;
 
@@ -741,7 +745,7 @@ text-align: center;
 
 border-radius: 30px;
 
-    background-color: rgb(164, 171, 255);
+    background-color: rgba(164, 171, 255,0.8);
     
     
     transition-duration: 1s;
