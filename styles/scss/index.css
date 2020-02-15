@@ -44,7 +44,9 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: rgba(129, 129, 129, 0.8);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 66, 104, 0.7)), to(rgba(104, 41, 41, 0)));
+  background-image: linear-gradient(rgba(62, 66, 104, 0.7), rgba(104, 41, 41, 0));
+  background-position: center;
 }
 
 .fixed {
@@ -57,6 +59,12 @@ body {
   z-index: 10;
   border: none;
   width: 100%;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.fixed:hover {
+  background: rgba(78, 78, 78, 0.9);
 }
 
 .header__nav {
@@ -511,6 +519,7 @@ body {
   display: flex;
   -ms-grid-columns: auto auto auto;
       grid-template-columns: auto auto auto;
+  background-attachment: fixed;
 }
 
 @media screen and (max-width: 1220px) {
@@ -607,18 +616,30 @@ body {
   text-align: center;
   height: 190px;
   border-top: 1px solid #383838;
-  background-color: #e7e7e7;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#6574ff), to(#ddf2ff));
+  background-image: linear-gradient(#6574ff, #ddf2ff);
 }
 
 .footer .contDiv {
-  width: 25%;
+  width: 24.3%;
   float: left;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .footer .contDiv .socialDiv {
   float: inline-start;
   font-weight: bold;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 30%;
+  border-radius: 40px;
 }
 
 .footer .contDiv .socialDiv .sochial {
@@ -628,7 +649,8 @@ body {
 .footer .contDiv .socialDiv img {
   position: relative;
   margin-top: 4%;
-  margin-left: 15%;
+  margin-left: auto;
+  margin-right: auto;
   float: left;
 }
 
@@ -640,7 +662,7 @@ body {
 }
 
 .footer .contact {
-  width: 48%;
+  width: 60%;
   margin: auto;
 }
 
@@ -649,10 +671,16 @@ body {
 }
 
 .footer p {
-  border-bottom: 1px solid #494949;
-  border-bottom-width: 6px;
-  border-radius: 5px;
-  margin-bottom: 9px;
+  border-bottom: 1px solid #8d6bff;
+  border-bottom-width: 3px;
+  border-radius: 40px;
+  margin-bottom: 15px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.footer p:hover {
+  background-color: #bb91ff;
 }
 
 .main_menu {
@@ -696,7 +724,7 @@ body {
 }
 
 .main_menu .main_cont .info_card {
-  background-image: url("/assets/img/backCatal.png");
+  background-image: url("/assets/img/backCatal1.png");
   height: 95%;
   width: 25%;
   margin-left: 15px;
@@ -704,14 +732,14 @@ body {
   margin-top: 15px;
   text-align: center;
   border-radius: 15px;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
 }
 
 .main_menu .main_cont .info_card:hover {
   background-color: #6f72ff;
-  -webkit-transform: rotateX(6deg) rotateY(20deg) rotateZ(0);
-          transform: rotateX(6deg) rotateY(20deg) rotateZ(0);
+  -webkit-transform: rotateX(4deg) rotateY(20deg) rotateZ(0);
+          transform: rotateX(4deg) rotateY(20deg) rotateZ(0);
 }
 
 .main_menu .main_cont .info_card:active {
@@ -731,10 +759,10 @@ body {
 }
 
 .main_menu .main_cont .card_text p {
-  color: black;
+  color: #516bb9;
   padding: 10px;
   text-align: center;
-  font-size: 45px;
+  font-size: 42px;
   word-wrap: break-word;
   font-family: 'Roboto';
 }
