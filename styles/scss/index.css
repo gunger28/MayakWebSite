@@ -561,18 +561,13 @@ body {
           align-items: flex-start;
 }
 
-.catalog .row .col .info .info__left img {
-  height: 100%;
-  width: 100%;
-}
-
 .catalog .row .col .info .info__right {
   width: 77%;
 }
 
 .catalog .row .col .info .info__right .right__title {
   padding: 3px;
-  font-size: 26px;
+  font-size: 25px;
   color: #0d1744;
   word-wrap: break-word;
   margin-bottom: 10px;
