@@ -567,12 +567,14 @@ body {
 }
 
 .catalog .row .col .info .info__right {
-  width: 70px;
+  width: 77%;
 }
 
 .catalog .row .col .info .info__right .right__title {
-  font-size: 30px;
-  color: #000;
+  padding: 3px;
+  font-size: 26px;
+  color: #0d1744;
+  word-wrap: break-word;
   margin-bottom: 10px;
   /*  text-align: center; */
 }
