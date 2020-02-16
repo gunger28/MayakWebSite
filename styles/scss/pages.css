@@ -268,8 +268,8 @@ body {
 
 .wrapper__left .left__text-block {
   margin-left: 8px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(97, 120, 224, 0.96)), to(rgba(163, 113, 255, 0.7)));
-  background-image: linear-gradient(rgba(97, 120, 224, 0.96), rgba(163, 113, 255, 0.7));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(49, 43, 134, 0.96)), to(rgba(76, 49, 195, 0.86)));
+  background-image: linear-gradient(rgba(49, 43, 134, 0.96), rgba(76, 49, 195, 0.86));
   border-radius: 15px;
   padding: 10px;
 }
@@ -293,8 +293,8 @@ body {
 .wrapper__left .left__text-block .text__text {
   padding: 5px;
   border-radius: 15px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(136, 148, 255, 0)), to(#7d66ff));
-  background-image: linear-gradient(rgba(136, 148, 255, 0), #7d66ff);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(136, 148, 255, 0)), to(#6449ff));
+  background-image: linear-gradient(rgba(136, 148, 255, 0), #6449ff);
   text-shadow: 1px 1px 6px #272727;
   margin-top: 9px;
   text-indent: 5%;
