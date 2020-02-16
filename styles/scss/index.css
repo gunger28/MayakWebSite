@@ -519,7 +519,6 @@ body {
   display: flex;
   -ms-grid-columns: auto auto auto;
       grid-template-columns: auto auto auto;
-  background-attachment: fixed;
 }
 
 @media screen and (max-width: 1220px) {
@@ -546,14 +545,18 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   border-radius: 20px;
-  -webkit-transition: all .2s linear;
-  transition: all .2s linear;
+  -webkit-transition-property: background-image;
+  transition-property: background-image;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
   margin: 10px;
-  background-color: rgba(41, 30, 141, 0.5);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#6574ff), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(#6574ff, rgba(0, 0, 0, 0));
 }
 
 .catalog .row .col:hover {
-  background-color: #7187ff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#6574ff), to(rgba(31, 28, 172, 0.8)));
+  background-image: linear-gradient(#6574ff, rgba(31, 28, 172, 0.8));
   -webkit-transform: rotateX(7deg) rotateY(10deg) rotateZ(0);
           transform: rotateX(7deg) rotateY(10deg) rotateZ(0);
 }
@@ -767,48 +770,28 @@ body {
   font-family: 'Roboto';
 }
 
-.wrip {
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.popup {
-  border-radius: 30px;
-  margin: 0 auto;
-  display: block;
-  width: 650px;
-  height: 320px;
-  background-color: rgba(33, 24, 116, 0);
-  color: white;
-  padding: 15px;
-  -webkit-transition-property: background-color;
-  transition-property: background-color;
-  -webkit-transition-duration: 0.6s;
-          transition-duration: 0.6s;
-  top: -1999px;
-  left: 400px;
-}
-
-.popup input {
-  display: inline;
-  width: 100%;
-  height: 125px;
-  background-color: rgba(0, 0, 0, 0);
-}
-
 #modal {
   display: none;
 }
 
-#modal:hover ~ .popup.input {
-  background-color: #ff1717;
+.popup {
+  width: 380px;
+  height: 340px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(101, 116, 255, 0)), to(rgba(101, 116, 255, 0)));
+  background-image: linear-gradient(rgba(101, 116, 255, 0), rgba(101, 116, 255, 0));
+  color: #141414;
+  position: relative;
+  opacity: 0;
+  top: -443px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
 }
 
-#modal:hover ~ .popup {
-  top: -450px;
-  left: 369px;
-  background-color: #6055c0;
-  -webkit-transform: rotateX(4deg) rotateY(-20deg) rotateZ(0);
-          transform: rotateX(4deg) rotateY(-20deg) rotateZ(0);
+.card_text:hover ~ .popup {
+  opacity: 0.97;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#6574ff), to(rgba(101, 116, 255, 0)));
+  background-image: linear-gradient(#6574ff, rgba(101, 116, 255, 0));
 }
 /*# sourceMappingURL=index.css.map */
