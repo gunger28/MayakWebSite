@@ -161,7 +161,28 @@
                     </div>
                 </div>
             </div>
+            <section class="galery_mini">
+<div class="photo_element">
+
+<img src="/assets/img/Siropovar_3.png" alt="image">
+</div>
+<div class="photo_element">
+
+<img src="/assets/img/Siropovar_3.png" alt="image">
+</div>
+<div class="photo_element">
+
+<img src="/assets/img/Siropovar_3.png" alt="image">
+</div>
+<div class="photo_element">
+
+<img src="/assets/img/Siropovar_3.png" alt="image">
+</div>
+
+        </section>
         </div>
+        <!--Mini-galery-->
+       
 
         <!-- content -->
         <div class="wrapper">

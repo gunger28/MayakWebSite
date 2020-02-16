@@ -1,6 +1,7 @@
 .stats {
-    box-shadow: inset 2px 2px 5px rgba(0, 14, 207, 0.5), 1px 1px 5px rgb(28, 15, 204);
-            
+    box-shadow: inset 2px 2px 5px rgba(0, 14, 207, 0.6), 1px 1px 5px rgb(28, 15, 204);
+    position: relative;    
+    margin-left:70%;
     margin-top: 10px;
     text-align:center;
 
@@ -10,7 +11,7 @@
     padding-top: 8px;
 
 
-    background-color: rgba(0, 192, 251, 0.548);
+    background-color: rgba(58, 175, 211, 0.883);
 
 
    
@@ -153,7 +154,7 @@ background-attachment: fixed;
         justify-content: space-between;
 
         .wrapper__right {
-            width: 35%;
+            width: 30%;
             background-image: linear-gradient(rgba(141, 107, 255,1), rgb(55, 75, 255));
    border-radius: 15px;
    margin-left: 8px;
@@ -247,7 +248,7 @@ border-radius: 15px;
 
                 
                 padding-left: 5px;
-                background-color: rgba(181, 84, 246, 0.9);
+                background-color: rgba(99, 77, 224, 0.918);
                 margin-top: 5px;
                 max-height: 70px;
                 height: auto;
@@ -292,7 +293,7 @@ border-radius: 15px;
     .left__text-block {
 
         margin-left: 8px;
-        background-image: linear-gradient(rgba(85, 63, 212, 0.96), rgba(137, 74, 255,0.96));
+        background-image: linear-gradient(rgba(97, 120, 224, 0.96), rgba(163, 113, 255, 0.7));
 border-radius: 15px;
    padding: 10px;
        // border-left: 1px solid #222;
@@ -301,7 +302,7 @@ border-radius: 15px;
             
             padding: 5px;
             display: inline;
-            box-shadow: inset 2px 2px 5px rgba(0, 14, 207, 0.5), 1px 1px 5px rgb(28, 15, 204);
+            box-shadow: inset 2px 2px 5px rgba(19, 20, 32, 0.5), 1px 1px 5px rgb(10, 9, 22);
             max-width: 70%;
             color: rgb(12, 12, 12);
             background-image: linear-gradient(rgba(85, 63, 212, 0), rgba(137, 74, 255,0.7));
@@ -315,12 +316,17 @@ border-radius: 15px;
         }
 
         .text__text {
+
+            padding: 5px;
+            border-radius: 15px;
+            background-image: linear-gradient(rgba(136, 148, 255, 0), rgb(125, 102, 255));
+            text-shadow: 1px 1px 6px rgb(39, 39, 39); 
 margin-top: 9px;
            // border: 1px solid #833;
            text-indent: 5%;
-            color: rgb(14, 14, 14);
+            color: rgb(0, 0, 0);
             line-height: 20px;
-            font-size: 16px;
+            font-size: 15px;
         }
     }
 }
@@ -769,4 +775,47 @@ margin-left: 10px;
             background-color: #d0b074;
         }
     }
+
+  
 }
+
+.galery_mini{
+    border-radius: 15px;
+margin: 0 auto ;
+
+   
+    background-image: linear-gradient(rgb(79, 59, 255), rgba(0, 0, 0, 0));
+   
+            width: 74%;
+            height: 400px;
+
+display: flex;
+
+            .photo_element{
+                margin-right:auto ;
+                margin-left: auto;
+                margin: auto auto;
+width: 24%;
+height: 96%;
+background-image: linear-gradient(rgba(79, 59, 255,0), rgb(149, 83, 255));
+   
+//background-color: rgba(102, 36, 255, 0.9);
+border-radius: 15px;
+
+transition-duration: .7s;
+
+&:hover{
+
+    background-color: rgba(69, 36, 255, 0.97);
+    transform: rotateX(8deg) rotateY(8deg);
+}
+
+img{
+  width: 100%;
+  height: 100%;
+
+
+}
+
+            }
+        }
