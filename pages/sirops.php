@@ -57,6 +57,11 @@
                     <a href="/index.html" class="item__link">
                         <li class="menu__item">Заказать</li>
                     </a>
+                    <a href="#top" class="item__link" >
+                        <li class="menu__item" >
+                            <img src="/assets/img/logo1.png" alt="image">
+                        </li>
+                    </a>
                     <a href="/pages/galery.html" class="item__link">
                         <li class="menu__item">Галерея</li>
                     </a>
@@ -114,7 +119,7 @@
                 <div class="wrapper__right">
                     <h2 class="right__title">
                         Заказать или задать вопрос
-                    </h2>
+</h2>
                     <div class="wrapper__info">
                         <p class="info__text">
                             Если у вас имеются вопросы или вы хотите заказать сироповарку, то просто заполните и отправьте форму и мы свяжемся с вами.
@@ -225,11 +230,7 @@
                 </a>
             </div>
 
-            <div class="socialDiv">
-                <a href="https://vk.com/away.php?to=https%3A%2F%2Fwww.instagram.com%2Finvites%2Fcontact%2F%3Fi%3D1mbv1yd2l0ick%26utm_content%3Dd6128nq&cc_key=">
-                    <img src="/assets/img/inst.png" alt="Image">
-                </a>
-            </div>
+            
         </div>
 
         <div class="contDiv">
