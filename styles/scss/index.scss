@@ -72,7 +72,8 @@ background-attachment: fixed;
 
     &:hover{
 
-        background: rgba(78, 78, 78, 0.9);
+        background-image: linear-gradient(rgb(85, 46, 255), rgba(221, 242, 255,0));
+   
 
     }
     
@@ -104,9 +105,9 @@ background-attachment: fixed;
     transition: all .3s linear;
 
     &:hover {
-        background-color: rgba(97, 28, 28, 0.876);
-       // background-image: linear-gradient(rgba(101, 116, 255,0), rgb(80, 0, 0));
-   
+       // background-color: rgba(97, 28, 28, 0.876);
+        background-image: linear-gradient(rgb(160, 0, 0),rgba(129, 33, 33, 0));
+   border-bottom-right-radius: 18px;
     }
 }
 

@@ -6,15 +6,18 @@
     margin-left: 10px;
     text-align:center;
 
+    box-shadow: 2px 2px 5px rgba(19, 20, 32, 0.5), 1px 1px 5px rgb(10, 9, 22);
+
+    font-size: 18px;
     height: 40px;
-    max-width: 185px;
+    max-width: 225px;
     padding: 10px;
     
 
 float: right;
-    background-color: rgba(185, 40, 34, 0.918);
+   // background-color: rgba(185, 40, 34, 0.918);
 
-
+    background-image: linear-gradient(rgba(160, 45, 0, 0.8),rgba(224, 36, 36, 0.87));
    
 
    // border: 1px solid #333;
@@ -97,11 +100,12 @@ background-attachment: fixed;
     border: none;
     width: 100%;
 
-    transition-duration: 1s;
+    transition-duration: .4s;
 
     &:hover{
 
-        background: rgba(78, 78, 78, 0.9);
+        background-image: linear-gradient(rgb(85, 46, 255), rgba(221, 242, 255,0));
+   
 
     }
     
@@ -123,17 +127,18 @@ background-attachment: fixed;
     color: #000;
     text-decoration: none;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     flex-grow: 1;
     padding: 1px;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    transition: all .3s linear;
+    transition: all .1s linear;
 
     &:hover {
-        background-color: rgba(97, 28, 28, 0.876);
+        background-image: linear-gradient(rgb(160, 0, 0),rgba(129, 33, 33, 0));
+   border-bottom-right-radius: 18px;
     }
 }
 
@@ -174,21 +179,30 @@ background-color: rgb(141, 107, 255);
                 width: 91%;
                 margin: 0 auto;
             
-            height: 50%;
+            height: 40%;
 
 
             
           
 
 p{
-    padding: 6px;
-    margin: 40px auto;
+    padding: 10px;
+    margin: 5px auto;
 width: 100%;
-height: 10%;
+height: 20%;
+font-size: 18px;
 font-family: Verdana;
-border-bottom: 3px solid rgb(85, 33, 105);
+box-shadow:0 0 20px rgb(154, 77, 255);
+border-bottom: 3px solid rgb(130, 66, 214);
+background-color:rgb(87, 75, 255) ;
 border-radius: 8px;
 text-align: center;
+
+&:hover{
+
+    background-color:rgb(255, 188, 100) ;
+
+}
 }
             }
         }
@@ -233,7 +247,7 @@ border-radius: 15px;
         
         .harakteristics{
 
-            background-image: linear-gradient(rgba(66, 44, 189, 0.96), rgba(137, 74, 255,0));
+            background-image: linear-gradient(rgb(50, 38, 158), rgba(137, 74, 255,0));
 border-radius: 15px;
             
             //background-color: rgba(30, 30, 30, 0.2);
@@ -248,14 +262,16 @@ border-radius: 15px;
             .block_har{
 
                 
-                padding-left: 5px;
-                background-color: rgba(99, 77, 224, 0.918);
-                margin-top: 5px;
+                padding: 3px;
+                padding-left: 8px;
+               // background-color: rgba(165, 77, 224, 0.918);
+                background-image: linear-gradient(rgba(96, 69, 251, 0.96), rgba(102, 125, 255, 0.99));
+                margin-top: 3px;
                 max-height: 70px;
                 height: auto;
                 word-wrap: break-word;
                 vertical-align: top;
-                font-size: 16px;
+                font-size: 17px;
                 width: 200px;
                 border: 1px solid rgba(51, 51, 51, 0);
                 border-radius: 15px;
@@ -267,11 +283,12 @@ border-radius: 15px;
                 padding-left: 3px;
               //background-color: rgba(191, 199, 207, 0.685);
                 //margin-top: 5px;
+                
                 max-height: 70px;
                 height: auto;
                 word-wrap: break-word;
                 vertical-align: top;
-                color: rgba(192, 192, 192, 0.959);;
+                color: rgb(226, 226, 226);;
                 font-size: 20px;
                 width: 200px;
                 border: 1px solid rgba(51, 51, 51, 0);
@@ -294,7 +311,9 @@ border-radius: 15px;
     .left__text-block {
 
         margin-left: 8px;
-        background-image: linear-gradient(rgba(59, 56, 255, 0), rgba(79, 77, 255, 0));
+        background-image: linear-gradient(rgb(255, 177, 131), rgb(255, 93, 44));
+   
+      //  background-image: linear-gradient(rgb(92, 55, 255),rgba(141, 107, 255,1));
 border-radius: 15px;
    padding: 10px;
        // border-left: 1px solid #222;
@@ -306,7 +325,7 @@ border-radius: 15px;
             box-shadow: inset 2px 2px 5px rgba(19, 20, 32, 0.5), 1px 1px 5px rgb(10, 9, 22);
             max-width: 70%;
             color: rgb(12, 12, 12);
-            background-image: linear-gradient(rgba(170, 71, 250, 0.7), rgba(119, 70, 255, 0.897));
+            background-image: linear-gradient(rgba(255, 52, 45, 0.7), rgba(255, 207, 75, 0.897));
 border-radius: 15px;
             font-weight: 300;
             text-align: center;
@@ -320,12 +339,16 @@ border-radius: 15px;
 
             padding: 5px;
             border-radius: 15px;
-            background-image: linear-gradient(rgba(255, 180, 42, 0.952), rgba(251, 255, 35, 0.9));
-          //  text-shadow: 1px 1px 6px rgb(39, 39, 39); 
+            //background-image: linear-gradient(rgba(255, 180, 42, 0), rgba(251, 255, 35, 0.5));
+         font-family: 'Roboto';
+         
+            border-left: 2px solid rgb(141, 42, 255) ;
+          border-right: 2px solid rgb(141, 42, 255) ;
+            //  text-shadow: 1px 1px 6px rgb(39, 39, 39); 
 margin-top: 12px;
            // border: 1px solid #833;
            text-indent: 5%;
-            color: rgb(0, 0, 0);
+            color: rgb(26, 26, 26);
             line-height: 20px;
             font-size: 16px;
         }
@@ -333,9 +356,12 @@ margin-top: 12px;
 }
 
 .right__title {
-    background-image: linear-gradient(rgba(101, 116, 255,0), rgb(120, 96, 255));
+    background-image: linear-gradient(rgba(101, 116, 255,0), rgb(95, 67, 255));
     //font-size: 20px;
     border-radius: 15px;
+    padding: 6px;
+    font-size: 30px;
+    word-wrap: break-word;
     text-align: center;
     margin-bottom: 15px;
     font-weight: 10;
@@ -379,14 +405,20 @@ margin-top: 12px;
 
         outline: none;
         border: 2px solid lightgrey;
-        border-radius: 5px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
 
         font-size: 16px;
         padding: 10px;
+
+        transition-duration: .6s;
+        &:hover{
+
+            background-color: rgb(231, 231, 231)
+        }
     }
 }
 
@@ -398,21 +430,34 @@ margin-top: 12px;
 
     input {
         height: 40px;
-        padding: 10px;
+        padding: 5px;
         width: 30%;
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 400;
 
         outline: none;
         border: 2px solid lightgrey;
-        border-radius: 5px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
+        border-radius: 9px;
+        -webkit-border-radius: 9px;
+        -moz-border-radius: 9px;
+        -ms-border-radius: 9px;
+        -o-border-radius: 9px;
+
+        transition-duration: .6s;
+        &:hover{
+
+            background-color: rgb(224, 224, 224)
+        }
     }
 
     input[type="submit"] {
         cursor: pointer;
+
+        transition-duration: .6s;
+        &:hover{
+
+            background-color: rgba(118, 69, 233, 0.8)
+        }
     }
 }
 
@@ -426,6 +471,7 @@ margin-top: 12px;
 .wrapper {
     display: flex;
     flex-direction: column;
+    background-image: linear-gradient(rgba(121, 157, 197, 0.96), rgba(137, 74, 255,0));
 }
 
 .content {
@@ -435,20 +481,29 @@ margin-top: 12px;
     margin: 30px auto;
     max-width: 1280px;
     position: relative;
+    
 
     .col {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.4), 0 10px 10px rgba(0,0,0,0.42);
         padding: 15px;
         cursor: pointer;
-        width: 450px;
+        width: 250px;
         margin-right: 20px;
         display: flex;
         flex-direction: column;
         position: relative;
+//transition-duration: .8s;
 
-        transition: all .5s linear;
+border-radius: 8px;
+        transition: all .3s linear;
+        background-color: rgba(255, 208, 170, 0.616);
+        //background-color: linear-gradient(rgb(16, 34, 190), rgba(221, 242, 255, 0));
 
         &:hover {
-            background-color: lightgrey;
+        //    background-color: linear-gradient(rgb(101, 116, 255), rgba(221, 242, 255, 0));
+            
+border-radius: 25px;
+      background-color: rgba(255, 120, 67, 0.6);
         }
 
         .info {
@@ -479,7 +534,7 @@ margin-top: 12px;
                 }
 
                 .right__descr {
-                    color: rgb(143, 132, 132);
+                    color: rgb(36, 36, 36);
                     line-height: 22px;
                     word-break: break-all;
                     flex: 1;
@@ -492,7 +547,7 @@ margin-top: 12px;
 
             @media screen and (max-width: 1220px) {
                 max-width: 350px;
-                max-height: 380px;
+                max-height: 300px;
                 margin: auto;
                 text-align: center;
             }
@@ -620,7 +675,10 @@ margin-left: 10px;
 
     &__window {
         padding: 20px 60px 40px;
-        background-color: #f2f2f2;
+       // background-color: #8a77f3;
+        background-image: linear-gradient(rgb(255, 177, 131), rgb(255, 93, 44));
+   
+        border-radius: 30px;
         text-align: center;
         position: relative;
         display: flex;
@@ -696,9 +754,11 @@ margin-left: 10px;
         }
 
         .window__img {
+            
             min-width: 300px;
             min-height: 300px;
             max-width: 100%;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
         }
 
         .window__right {
@@ -787,7 +847,7 @@ margin: 0 auto ;
    
     background-image: linear-gradient(rgb(79, 59, 255), rgba(0, 0, 0, 0));
    
-            width: 74%;
+            width: 67.5%;
             height: 400px;
 
 display: flex;
