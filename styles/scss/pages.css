@@ -1,16 +1,14 @@
 .stats {
-  -webkit-box-shadow: inset 2px 2px 5px rgba(0, 14, 207, 0.6), 1px 1px 5px #1c0fcc;
-          box-shadow: inset 2px 2px 5px rgba(0, 14, 207, 0.6), 1px 1px 5px #1c0fcc;
   position: relative;
-  margin-left: 70%;
   margin-top: 10px;
+  margin-left: 10px;
   text-align: center;
   height: 40px;
   max-width: 185px;
-  padding-left: 8px;
-  padding-top: 8px;
-  background-color: rgba(58, 175, 211, 0.883);
-  border-radius: 5px;
+  padding: 10px;
+  float: right;
+  background-color: rgba(185, 40, 34, 0.918);
+  border-radius: 10px;
 }
 
 * {
@@ -268,8 +266,8 @@ body {
 
 .wrapper__left .left__text-block {
   margin-left: 8px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(49, 43, 134, 0.96)), to(rgba(76, 49, 195, 0.86)));
-  background-image: linear-gradient(rgba(49, 43, 134, 0.96), rgba(76, 49, 195, 0.86));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(59, 56, 255, 0)), to(rgba(79, 77, 255, 0)));
+  background-image: linear-gradient(rgba(59, 56, 255, 0), rgba(79, 77, 255, 0));
   border-radius: 15px;
   padding: 10px;
 }
@@ -281,8 +279,8 @@ body {
           box-shadow: inset 2px 2px 5px rgba(19, 20, 32, 0.5), 1px 1px 5px #0a0916;
   max-width: 70%;
   color: #0c0c0c;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(85, 63, 212, 0)), to(rgba(137, 74, 255, 0.7)));
-  background-image: linear-gradient(rgba(85, 63, 212, 0), rgba(137, 74, 255, 0.7));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 71, 250, 0.7)), to(rgba(119, 70, 255, 0.897)));
+  background-image: linear-gradient(rgba(170, 71, 250, 0.7), rgba(119, 70, 255, 0.897));
   border-radius: 15px;
   font-weight: 300;
   text-align: center;
@@ -293,14 +291,13 @@ body {
 .wrapper__left .left__text-block .text__text {
   padding: 5px;
   border-radius: 15px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(136, 148, 255, 0)), to(#6449ff));
-  background-image: linear-gradient(rgba(136, 148, 255, 0), #6449ff);
-  text-shadow: 1px 1px 6px #272727;
-  margin-top: 9px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 180, 42, 0.952)), to(rgba(251, 255, 35, 0.9)));
+  background-image: linear-gradient(rgba(255, 180, 42, 0.952), rgba(251, 255, 35, 0.9));
+  margin-top: 12px;
   text-indent: 5%;
   color: black;
   line-height: 20px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .right__title {

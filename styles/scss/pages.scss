@@ -1,23 +1,24 @@
 .stats {
-    box-shadow: inset 2px 2px 5px rgba(0, 14, 207, 0.6), 1px 1px 5px rgb(28, 15, 204);
+    //box-shadow: inset 2px 2px 5px rgba(0, 14, 207, 0.6), 1px 1px 5px rgb(28, 15, 204);
     position: relative;    
-    margin-left:70%;
+   // margin-left:70%;
     margin-top: 10px;
+    margin-left: 10px;
     text-align:center;
 
     height: 40px;
     max-width: 185px;
-    padding-left: 8px;
-    padding-top: 8px;
+    padding: 10px;
+    
 
-
-    background-color: rgba(58, 175, 211, 0.883);
+float: right;
+    background-color: rgba(185, 40, 34, 0.918);
 
 
    
 
    // border: 1px solid #333;
-    border-radius: 5px;
+    border-radius: 10px;
     
 }
 
@@ -293,7 +294,7 @@ border-radius: 15px;
     .left__text-block {
 
         margin-left: 8px;
-        background-image: linear-gradient(rgba(49, 43, 134, 0.96), rgba(76, 49, 195, 0.86));
+        background-image: linear-gradient(rgba(59, 56, 255, 0), rgba(79, 77, 255, 0));
 border-radius: 15px;
    padding: 10px;
        // border-left: 1px solid #222;
@@ -305,7 +306,7 @@ border-radius: 15px;
             box-shadow: inset 2px 2px 5px rgba(19, 20, 32, 0.5), 1px 1px 5px rgb(10, 9, 22);
             max-width: 70%;
             color: rgb(12, 12, 12);
-            background-image: linear-gradient(rgba(85, 63, 212, 0), rgba(137, 74, 255,0.7));
+            background-image: linear-gradient(rgba(170, 71, 250, 0.7), rgba(119, 70, 255, 0.897));
 border-radius: 15px;
             font-weight: 300;
             text-align: center;
@@ -319,14 +320,14 @@ border-radius: 15px;
 
             padding: 5px;
             border-radius: 15px;
-            background-image: linear-gradient(rgba(136, 148, 255, 0), rgb(100, 73, 255));
-            text-shadow: 1px 1px 6px rgb(39, 39, 39); 
-margin-top: 9px;
+            background-image: linear-gradient(rgba(255, 180, 42, 0.952), rgba(251, 255, 35, 0.9));
+          //  text-shadow: 1px 1px 6px rgb(39, 39, 39); 
+margin-top: 12px;
            // border: 1px solid #833;
            text-indent: 5%;
             color: rgb(0, 0, 0);
             line-height: 20px;
-            font-size: 15px;
+            font-size: 16px;
         }
     }
 }

@@ -23,7 +23,7 @@
 
         <link rel="shortcut icon" href="/assets/img/icon_S.png" />
 
-        <title>Дисольверы</title>
+        <title>Сироповарки</title>
     </head>
     <body>
         <!-- Модалка -->
@@ -79,44 +79,53 @@
             <div class="information__wrapper">
                 <div class="wrapper__left">
                     <div class="left__img-block">
-                        <img src="/assets/img/Dissol_1.png" alt="картинка" />
+                        <img src="/assets/img/Siropovar_3.png" alt="картинка" />
 
                         <div class="harakteristics">
                         <div class="block_Individ">Индивидуальная конструкция</div>
-                        <div class="block_har">Объем бака: 180 л</div>
-<div class="block_har">Кол. оборотов/мин: 3000</div>
+<div class="block_har">Масса: 600 кг</div>
+<div class="block_har">Макс. потребляемая мощность: 40 кВт</div>
 <div class="block_har">Сеть: 380 В</div>
-<div class="block_har">Частотный преобразователь</div>
-
+<div class="block_har">Высота: 2300 мм</div>
 
                             </div>
                     </div>
                     <div class="left__text-block">
                         <p class="text__title">
-                            Диcсольвер
+                            Сироповарка
                         </p>
                         <p class="text__text">
-                        Предназначен для смешения материалов средней твердости в жидких средах. Диссольвер применяется для производства красок, клеев, косметических продуктов, различных паст, дисперсий и эмульсий и т. д. Диссольверы могут оснащаться рубашкой для обогрева или охлаждения. Детали и узлы, соприкасающиеся с продуктом выполнены из нержавеющей стали.
+                        Маяк-авангард производит надежные сироповарки различной конструкции и модификации емкостью до 3000 литров для пищевой промышленности.
 
-В дисольверах применяются мешалки различных типов: 
-<p class="text__text">
--Рамная мешалка диссольвера работает как скребок и не позволяет липким и густым веществам оседать на дне и стенках.</p>
-<p class="text__text">
--быстроходная типа фрезы, измельчает и тщательно перемешивает сырье до получения однородной массы компонентов лакокрасочного материала.
+Сироповарка представляет собой трехслойную емкость с рубашкой, теплоноситель глицерин или пар под давлением, утепленную минеральной ватой, на опорах, дно – конус (торосфера), крышка 1/3.
+<br>
+<br>
 </p>
+<p class="text__text">
+Перемешивающее устройство у сироповарки рамного типа с фторопластовыми скребками и мотор – редуктором, число оборотов мешалки 28-30об/мин. 
+
+Во избежание образования застойной зоны в нижней части сироповарки  находится «грибковая пробка». 
+Загрузка готового продукта в сироповарку происходит через откидывающуюся крышку.
+
+Вода в сироповарку подается через штуцер, расположенный на крышке емкости. 
+Сироповарка укомплектована пультом управления, включающий пускатели ТЭНов, перемешивающего устройства, измерители-регуляторы температуры.
                         </p>
                         <p class="stats">
-                        Объем: до 1500л.
+                        Объем: до 3000л.
+</p>
+<p class="stats">
+    Рубашка нагрева.
 </p>
                     </div>
+                    
                 </div>
                 <div class="wrapper__right">
                     <h2 class="right__title">
-                        Задать вопрос про дисcольвер
-                    </h2>
+                        Заказать или задать вопрос
+</h2>
                     <div class="wrapper__info">
                         <p class="info__text">
-                        Если у вас имеются вопросы или вы хотите заказать сироповарку, то просто заполните и отправьте форму и мы свяжемся с вами.
+                            Если у вас имеются вопросы или вы хотите заказать сироповарку, то просто заполните и отправьте форму и мы свяжемся с вами.
                         </p>
                         <form action="" class="info__form" id="form">
                             <div class="form__message">
@@ -155,93 +164,31 @@
                     </div>
                 </div>
             </div>
+            <section class="galery_mini">
+<div class="photo_element">
+
+<img src="/assets/img/Siropovar_3.png" alt="image">
+</div>
+<div class="photo_element">
+
+<img src="/assets/img/Siropovar_3.png" alt="image">
+</div>
+<div class="photo_element">
+
+<img src="/assets/img/Siropovar_3.png" alt="image">
+</div>
+<div class="photo_element">
+
+<img src="/assets/img/Siropovar_3.png" alt="image">
+</div>
+
+        </section>
         </div>
+        <!--Mini-galery-->
+       
 
         <!-- content -->
-        <div class="wrapper">
-            <div class="content" id = "catalog">
-                <?php 
-            
-                    $link = mysqli_connect("a316809.mysql.mchost.ru", "a316809_1", "45362718Ee", "a316809_1");
-
-                    if ($link == false){
-                        echo "Ошибка: Невозможно подключиться к MySQL " . mysqli_connect_error();
-                    }
-                    else {
-                        $query = 'SELECT 
-                                    posts.name, 
-                                    posts.smallDescr, 
-                                    posts.id, 
-                                    posts.img 
-                                  FROM 
-                                    posts 
-                                        JOIN categorys ON posts.category = categorys.id 
-                                  WHERE 
-                                    categorys.name = \'disolvers\'';
-                        $result = mysqli_query($link, $query);
-                        $rows = mysqli_fetch_all($result, MYSQLI_ASSOC);
-
-                        foreach ($rows as $row) {
-                            echo 
-                            "
-                            <div class=\"col\" id = \"" . $row['id'] . "\">
-                                <div class=\"info\">
-                                    <div class=\"info__left\">
-                                        <img src=\"../assets/img/yes.png\" alt=\"image\" />
-                                    </div>
-                                    <div class=\"info__right\">
-                                        <p class=\"right__title\">"
-                                            . $row['name'] .
-                                        "</p>
-                                        <p class=\"right__descr\">
-                                            " . $row['smallDescr'] .
-                                        "</p>
-                                    </div>
-                                </div>
-                                <div class=\"img__wrapper\">
-                                    <img src=\"" . $row['img'] . "\" alt=\"Image\" />
-                                </div>
-                            </div>
-                            ";
-                        }
-                    }
-                ?>
-            </div>
-
-            <!-- footer -->
-            <footer class="footer" id="contacts">
-        <div class="contDiv">
-            Социальные сети:
-            <div class="socialDiv">
-                <a href="https://www.vk.com/">
-                    <img src="/assets/img/vk.png" alt="Image">
-                </a>
-            </div>
-
-            <div class="socialDiv">
-                <a href="https://www.youtube.com/">
-                    <img src="/assets/img/YT.png" alt="Image">
-                </a>
-            </div>
-
-            <div class="socialDiv">
-                <a href="https://www.instagram.com/">
-                    <img src="/assets/img/inst.png" alt="Image">
-                </a>
-            </div>
-        </div>
-
-        <div class="contDiv">
-            <div class="ZagolovDiv">
-                адрес:
-            </div>
-            <div class="adres">
-                <p>
-                    Новосибирская обл., г. Бердск, Переулок промышленный 2/1.
-                </p>
-            </div>
-        </div>
-
+        
         <div class="contDiv">
             <div class="ZagolovDiv">
                 Контакты:

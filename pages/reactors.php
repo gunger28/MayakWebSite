@@ -74,6 +74,11 @@
                     <a href="/index.html" class="item__link">
                         <li class="menu__item">Заказать</li>
                     </a>
+                    <a href="#top" class="item__link" >
+                        <li class="menu__item" >
+                            <img src="/assets/img/logo1.png" alt="image">
+                        </li>
+                    </a>
                     <a href="/pages/galery.html" class="item__link">
                         <li class="menu__item">Галерея</li>
                     </a>
