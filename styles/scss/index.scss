@@ -638,10 +638,12 @@ width: 100%;
                     width: 79%;
                     .right__title {
                         margin-left: 5px;
-                        background-color: rgb(255, 255, 255);
+                        //background-color: rgb(255, 255, 255);
+                        background-image: linear-gradient(rgb(255, 159, 70), rgba(255, 101, 30, 0.8));
+   
                         border-radius: 12px;
                         padding: 6px;
-                        font-size: 25px;
+                        font-size: 22px;
                         color: rgb(13, 23, 68);
                         word-wrap: break-word;
                         margin-bottom: 10px;
