@@ -517,7 +517,6 @@ body {
 }
 
 .catalog .row {
-  background-image: url("/assets/img/backCatal.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -576,13 +575,19 @@ body {
 }
 
 .catalog .row .col .info .info__left {
+  text-align: center;
   border: 1px solid #727272;
-  border-radius: 25px;
-  height: 50px;
-  width: 50px;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  -webkit-box-align: flex;
+      -ms-flex-align: flex;
+          align-items: flex;
+}
+
+.catalog .row .col .info .info__left img {
+  height: 100%;
+  width: 100%;
 }
 
 .catalog .row .col .info .info__right {
@@ -590,7 +595,10 @@ body {
 }
 
 .catalog .row .col .info .info__right .right__title {
-  padding: 3px;
+  margin-left: 5px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 6px;
   font-size: 25px;
   color: #0d1744;
   word-wrap: break-word;

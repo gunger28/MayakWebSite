@@ -576,7 +576,7 @@ img{
 
     .row {
 
-        background-image: url("/assets/img/backCatal.png");
+        //background-image: url("/assets/img/backCatal.png");
         display: flex;
         grid-template-columns: auto auto auto;
         //margin-bottom: 30px;
@@ -618,21 +618,29 @@ background-image: linear-gradient(rgba(101, 116, 255,1), rgba(0, 0, 0, 0));
 
                 .info__left {
                     
+                    text-align: center;
                     border: 1px solid rgb(114, 114, 114);
-                    border-radius: 25px;
-                    height: 50px;
-                        width: 50px;
-                    align-items: flex-start;
+                    border-radius: 20px;
+                    height: 40px;
+                        width: 40px;
+                    align-items: flex;
 
+img{
 
+height: 100%;
+width: 100%;
+
+}
                    
                 }
 
                 .info__right {
                     width: 79%;
                     .right__title {
-                        
-                        padding: 3px;
+                        margin-left: 5px;
+                        background-color: rgb(255, 255, 255);
+                        border-radius: 12px;
+                        padding: 6px;
                         font-size: 25px;
                         color: rgb(13, 23, 68);
                         word-wrap: break-word;
