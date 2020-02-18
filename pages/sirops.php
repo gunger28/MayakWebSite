@@ -99,7 +99,7 @@
 
 Сироповарка представляет собой трехслойную емкость с рубашкой, теплоноситель глицерин или пар под давлением, утепленную минеральной ватой, на опорах, дно – конус (торосфера), крышка 1/3.
 <br>
-<br>
+
 </p>
 <p class="text__text">
 Перемешивающее устройство у сироповарки рамного типа с фторопластовыми скребками и мотор – редуктором, число оборотов мешалки 28-30об/мин. 
@@ -137,7 +137,7 @@
                                 <input
                                     type="text"
                                     class="inputs__input"
-                                    placeholder="email"
+                                    placeholder="Телефон"
                                     name="mail"
                                     required
                                 />
@@ -164,19 +164,19 @@
             <section class="galery_mini">
 <div class="photo_element">
 
-<img src="/assets/img/Siropovar_3.png" alt="image">
+<img src="/assets/img/gal-sirop.jpg" alt="image">
 </div>
 <div class="photo_element">
 
-<img src="/assets/img/Siropovar_3.png" alt="image">
+<img src="/assets/img/gal-sirop1.jpg" alt="image">
 </div>
 <div class="photo_element">
 
-<img src="/assets/img/Siropovar_3.png" alt="image">
+<img src="/assets/img/gal-sirop2.jpg" alt="image">
 </div>
 <div class="photo_element">
 
-<img src="/assets/img/Siropovar_3.png" alt="image">
+<img src="/assets/img/gal-sirop3.webp" alt="image">
 </div>
 
         </section>

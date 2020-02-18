@@ -192,7 +192,7 @@ width: 100%;
 height: 20%;
 font-size: 18px;
 font-family: Verdana;
-box-shadow:0 0 20px rgb(154, 77, 255);
+box-shadow:0 0 20px rgb(255, 190, 50);
 border-bottom: 3px solid rgb(130, 66, 214);
 background-color:rgb(255, 188, 100) ;
 
@@ -209,7 +209,7 @@ text-align: center;
         }
 
         .wrapper__left {
-            width: 80%;
+            width: 90%;
             
         }
     }
@@ -236,7 +236,7 @@ text-align: center;
     
     .left__img-block {
         
-        background-image: linear-gradient(rgba(144, 74, 255, 0), rgb(137, 74, 255));
+        background-image: linear-gradient(rgba(144, 74, 255, 0), rgb(255, 132, 50));
       //  border-bottom: 1px solid #332;
 border-radius: 15px;
         display: flow-root;
@@ -248,7 +248,7 @@ border-radius: 15px;
         
         .harakteristics{
 
-            background-image: linear-gradient(rgb(50, 38, 158), rgba(137, 74, 255,0));
+            background-image: linear-gradient(rgb(117, 30, 30), rgba(137, 74, 255,0));
 border-radius: 15px;
             
             //background-color: rgba(30, 30, 30, 0.2);
@@ -266,7 +266,7 @@ border-radius: 15px;
                 padding: 3px;
                 padding-left: 8px;
                // background-color: rgba(165, 77, 224, 0.918);
-                background-image: linear-gradient(rgba(96, 69, 251, 0.96), rgba(102, 125, 255, 0.99));
+                background-image: linear-gradient(rgba(255, 126, 66, 0.96), rgba(255, 80, 74, 0.99));
                 margin-top: 3px;
                 max-height: 70px;
                 height: auto;
@@ -848,12 +848,16 @@ margin: 0 auto ;
    
     background-image: linear-gradient(rgb(79, 59, 255), rgba(0, 0, 0, 0));
    
-            width: 67.5%;
+            width: 1280px;
             height: 400px;
 
 display: flex;
 
             .photo_element{
+                padding-top: 10px;
+                display: inline;
+text-align: center;
+
                 margin-right:auto ;
                 margin-left: auto;
                 margin: auto auto;
@@ -873,8 +877,8 @@ transition-duration: .7s;
 }
 
 img{
-  width: 100%;
-  height: 100%;
+  width: 95%;
+  height: 95%;
 
 
 }

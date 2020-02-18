@@ -131,7 +131,7 @@
                                 <input
                                     type="text"
                                     class="inputs__input"
-                                    placeholder="email"
+                                    placeholder="Телефон"
                                     name="mail"
                                     required
                                 />
@@ -220,11 +220,7 @@
                 </a>
             </div>
 
-            <div class="socialDiv">
-                <a href="https://www.instagram.com/">
-                    <img src="/assets/img/inst.png" alt="Image">
-                </a>
-            </div>
+            
         </div>
 
         <div class="contDiv">

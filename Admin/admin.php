@@ -207,17 +207,11 @@
                             "
                             <div class=\"col\">
                                 <p class=\"delete__post\" id = \"" . $row['id'] . "\"></p>
-                                <div class=\"info\">
-                                    <div class=\"info__left\">
-                                        <img src=\"../assets/img/yes.png\" alt=\"image\" />
-                                    </div>
+                                <div class=\"info\">                     
                                     <div class=\"info__right\">
                                         <p class=\"right__title\">"
                                             . $row['name'] .
-                                        "</p>
-                                        <p class=\"right__descr\">
-                                            " . $row['smallDescr'] .
-                                        "</p>
+                                        "</p>                                        
                                     </div>
                                 </div>
                                 <div class=\"img__wrapper\">
