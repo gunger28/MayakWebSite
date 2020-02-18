@@ -596,12 +596,16 @@ body {
 
 .catalog .row .col .info .info__right .right__title {
   margin-left: 5px;
+  text-align: center;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9f46), to(rgba(255, 101, 30, 0.8)));
   background-image: linear-gradient(#ff9f46, rgba(255, 101, 30, 0.8));
+  -webkit-box-shadow: 2px 2px 5px rgba(19, 20, 32, 0.5), 1px 1px 5px #0a0916;
+          box-shadow: 2px 2px 5px rgba(19, 20, 32, 0.5), 1px 1px 5px #0a0916;
+  font-family: 'Roboto';
   border-radius: 12px;
   padding: 6px;
   font-size: 22px;
-  color: #0d1744;
+  color: black;
   word-wrap: break-word;
   margin-bottom: 10px;
   /*  text-align: center; */

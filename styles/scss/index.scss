@@ -638,13 +638,15 @@ width: 100%;
                     width: 79%;
                     .right__title {
                         margin-left: 5px;
+                        text-align: center;
                         //background-color: rgb(255, 255, 255);
                         background-image: linear-gradient(rgb(255, 159, 70), rgba(255, 101, 30, 0.8));
-   
+                        box-shadow: 2px 2px 5px rgba(19, 20, 32, 0.5), 1px 1px 5px rgb(10, 9, 22);
+                        font-family: 'Roboto';
                         border-radius: 12px;
                         padding: 6px;
                         font-size: 22px;
-                        color: rgb(13, 23, 68);
+                        color: rgb(0, 0, 0);
                         word-wrap: break-word;
                         margin-bottom: 10px;
                         /*  text-align: center; */
