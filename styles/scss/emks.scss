@@ -21,6 +21,10 @@ body {
     width: 100%;
     height: 200px;
     position: relative;
+
+    flex: 1;
+    background: url("/assets/img/backMenu2.jpg") repeat-x; 
+    background-attachment: fixed;
 }
 
 .header__logo {
@@ -46,17 +50,32 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    border: 1px solid #000;
+
+    background-image: linear-gradient(rgba(62, 66, 104,0.7), rgba(104, 41, 41, 0));
+    background-position: center;
 }
 
 .fixed {
+    margin-left: auto;
+    margin-right: auto;
     position: fixed;
     top: 0;
     height: 62px;
-    background: #fff;
-    z-index: 2;
+    //background: rgba(78, 78, 78, 0.5);
+    background-image: linear-gradient(rgb(101, 116, 255), rgba(221, 242, 255,0));
+   
+    z-index: 10;
     border: none;
     width: 100%;
+
+    transition-duration: .4s;
+
+    &:hover{
+
+        background-image: linear-gradient(rgb(85, 46, 255), rgba(221, 242, 255,0));
+   
+
+    }
 }
 
 .header__nav {
@@ -75,17 +94,18 @@ body {
     color: #000;
     text-decoration: none;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     flex-grow: 1;
-    padding: 15px;
+    padding: 1px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all .3s linear;
+
+    transition: all .1s linear;
 
     &:hover {
-        background-color: lightgrey;
-    }
+        background-image: linear-gradient(rgb(160, 0, 0),rgba(129, 33, 33, 0));
+   border-bottom-right-radius: 18px;}
 }
 
 .item__link:not(:last-child) {
@@ -193,12 +213,23 @@ text-align: center;
 
 //information
 
+body{
+
+    flex: 1;
+    background: url("/assets/img/backMenu2.jpg") repeat-x; 
+    background-attachment: fixed;
+}
+
+
 .information {
     width: 80%;
     margin: 30px auto;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    
+   
     
     .container {
         display: flex;
