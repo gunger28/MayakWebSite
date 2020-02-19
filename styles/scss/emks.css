@@ -135,7 +135,8 @@ body {
           align-items: center;
   margin-bottom: 10px;
   padding: 5px;
-  font-style: oblique;
+  font-style: 'Roboto';
+  font-size: 17px;
   text-align: center;
   border: 1px solid #323232;
   border-radius: 5px;
@@ -148,6 +149,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#002375), to(rgba(129, 33, 33, 0)));
+  background-image: linear-gradient(#002375, rgba(129, 33, 33, 0));
 }
 
 .footer {
@@ -281,8 +284,8 @@ body {
 }
 
 .information .container .cont_left .content_top .text_desc {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 129, 45, 0.9)), to(rgba(255, 243, 75, 0.897)));
-  background-image: linear-gradient(rgba(255, 129, 45, 0.9), rgba(255, 243, 75, 0.897));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 129, 45, 0.95)), to(rgba(255, 243, 75, 0.95)));
+  background-image: linear-gradient(rgba(255, 129, 45, 0.95), rgba(255, 243, 75, 0.95));
   display: inline;
   margin-left: 10px;
   padding-left: 5px;
@@ -302,6 +305,8 @@ body {
 }
 
 .information .container .cont_left .content_top .text_desc .oborudov .block {
+  -webkit-box-shadow: 2px 2px 5px rgba(19, 20, 32, 0.5), 1px 1px 5px #0a0916;
+          box-shadow: 2px 2px 5px rgba(19, 20, 32, 0.5), 1px 1px 5px #0a0916;
   cursor: pointer;
   border-radius: 6px;
   max-width: 65%;
@@ -332,13 +337,15 @@ body {
   margin-bottom: 10px;
   height: 10%;
   max-width: 70%;
-  padding: 10px;
+  padding: 6px;
   text-align: center;
   margin-left: 8px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(209, 255, 45, 0.9)), to(rgba(255, 171, 75, 0.897)));
   background-image: linear-gradient(rgba(209, 255, 45, 0.9), rgba(255, 171, 75, 0.897));
   border: 1px solid #636363;
   border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 20px;
 }
 
 .information .container .cont_left .content_top .text_desc p {
@@ -383,7 +390,7 @@ body {
   width: 100%;
   font-size: 16px;
   outline: none;
-  border: 2px solid lightgrey;
+  border: 2px solid #a1a1a1;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -448,6 +455,8 @@ body {
 .gal_block {
   width: 100%;
   height: 585px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(160, 0, 0, 0)), to(#0d1581));
+  background-image: linear-gradient(rgba(160, 0, 0, 0), #0d1581);
 }
 
 .gal_block .gallery {
