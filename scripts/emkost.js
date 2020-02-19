@@ -24,4 +24,43 @@ async function sendForm(event) {
     };
 };
 
+function redirection() {
+    const links = document.querySelectorAll('.block');
+
+    links.forEach(link => {
+        const id = link.id;
+        link.addEventListener('click', () => {
+            switch (id) {
+                case 'disolver':
+                    window.location.href = '/pages/disolvers.php';
+                    break;
+                case 'reactors':
+                    window.location.href = '/pages/reactors.php';
+                    break;
+                case 'biser':
+                    window.location.href = '/pages/bisers.php';
+                    break;
+                case 'emk':
+                    window.location.href = '/pages/emks.html';
+                    break;
+                case 'sirop':
+                    window.location.href = '/pages/sirops.php';
+                    break;
+                case 'pros':
+                    window.location.href = '/pages/proseiv.php';
+                    break;
+                default:
+                    console.error('Произошла ошибка');
+                    break;
+            }
+        })
+    })
+}
+
 addSendFormListener();
+
+window.onload = () => {
+    
+    redirection();
+   
+}

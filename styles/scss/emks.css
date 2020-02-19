@@ -137,7 +137,7 @@ body {
   padding: 5px;
   font-style: oblique;
   text-align: center;
-  border: 2px solid #323232;
+  border: 1px solid #323232;
   border-radius: 5px;
   -webkit-border-radius: 5px;
 }
@@ -229,6 +229,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   max-width: 1080px;
+  height: 600px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -256,7 +257,7 @@ body {
   margin-right: 10px;
   width: 782px;
   max-height: 140%;
-  display: flexbox;
+  display: inline;
 }
 
 .information .container .cont_left .content_top {
@@ -264,33 +265,78 @@ body {
   display: -ms-flexbox;
   display: flex;
   max-width: 100%;
-  max-height: 89%;
+  max-height: 100%;
 }
 
 .information .container .cont_left .content_top .photo_one {
-  max-width: 52%;
+  max-width: 42%;
   max-height: 70%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 52, 45, 0)), to(#ff9900));
+  background-image: linear-gradient(rgba(255, 52, 45, 0), #ff9900);
+}
+
+.information .container .cont_left .content_top .photo_one img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .information .container .cont_left .content_top .text_desc {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 129, 45, 0.9)), to(rgba(255, 243, 75, 0.897)));
+  background-image: linear-gradient(rgba(255, 129, 45, 0.9), rgba(255, 243, 75, 0.897));
   display: inline;
-  padding-top: 5px;
-  margin-left: 20px;
+  margin-left: 10px;
   padding-left: 5px;
   padding-bottom: 5px;
-  width: 370px;
+  max-width: 60%;
   height: 600px;
   border: 1px solid #636363;
   border-radius: 12px;
 }
 
+.information .container .cont_left .content_top .text_desc .oborudov {
+  width: 98%;
+  height: 12%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.information .container .cont_left .content_top .text_desc .oborudov .block {
+  cursor: pointer;
+  border-radius: 6px;
+  max-width: 65%;
+  max-height: 80%;
+  margin: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 13px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 52, 45, 0.9)), to(rgba(255, 171, 75, 0.897)));
+  background-image: linear-gradient(rgba(255, 52, 45, 0.9), rgba(255, 171, 75, 0.897));
+  word-wrap: break-word;
+  font-family: 'Roboto';
+  font-size: 22px;
+  -webkit-transition-duration: .7s;
+          transition-duration: .7s;
+}
+
+.information .container .cont_left .content_top .text_desc .oborudov .block:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 171, 75, 0.897)), to(rgba(255, 52, 45, 0.9)));
+  background-image: linear-gradient(rgba(255, 171, 75, 0.897), rgba(255, 52, 45, 0.9));
+}
+
 .information .container .cont_left .content_top .text_desc .volume {
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   height: 10%;
   max-width: 70%;
   padding: 10px;
   text-align: center;
-  background-color: rgba(30, 30, 30, 0.3);
+  margin-left: 8px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(209, 255, 45, 0.9)), to(rgba(255, 171, 75, 0.897)));
+  background-image: linear-gradient(rgba(209, 255, 45, 0.9), rgba(255, 171, 75, 0.897));
   border: 1px solid #636363;
   border-radius: 5px;
 }
@@ -298,9 +344,9 @@ body {
 .information .container .cont_left .content_top .text_desc p {
   text-indent: 5%;
   word-wrap: break-word;
-  font-family: 'Segoe UI';
-  font-size: 15px;
-  padding-right: 5px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding: 8px;
 }
 
 .information .container .cont_left .photo_one {
@@ -311,6 +357,11 @@ body {
 
 .information .container .container__right {
   width: 28%;
+  max-height: 100%;
+  padding: 8px;
+  border-radius: 15px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(80, 255, 45, 0.7)), to(rgba(75, 183, 255, 0.897)));
+  background-image: linear-gradient(rgba(80, 255, 45, 0.7), rgba(75, 183, 255, 0.897));
 }
 
 .information .container .container__right form {
@@ -327,7 +378,7 @@ body {
 }
 
 .information .container .container__right form input {
-  margin-bottom: 15px;
+  margin-bottom: 13px;
   padding: 10px;
   width: 100%;
   font-size: 16px;
@@ -360,7 +411,7 @@ body {
 }
 
 .information .container .container__right form #sendForm {
-  background-color: rgba(243, 227, 0, 0.5);
+  background-color: #fff56a;
   cursor: pointer;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
@@ -371,24 +422,16 @@ body {
   color: #000;
 }
 
-.gal_block {
-  width: 100%;
-  height: 335px;
-  padding: 10px;
-  background-color: #d6d6d6;
-}
-
-.gal_block .mini_gal {
+.mini_gal {
   width: 70%;
   height: 315px;
   margin: 5px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #e2e2e2;
 }
 
-.gal_block .mini_gal .photo {
+.mini_gal .photo {
   border: 1px solid #4d4d4d;
   width: 25%;
   height: 300px;
@@ -397,8 +440,144 @@ body {
   margin-right: 5px;
 }
 
-.gal_block .mini_gal .photo img {
+.mini_gal .photo img {
   width: 100%;
   height: 100%;
+}
+
+.gal_block {
+  width: 100%;
+  height: 585px;
+}
+
+.gal_block .gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  height: 100%;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.gal_block .gallery:after {
+  content: '';
+}
+
+.gal_block .shadow {
+  position: absolute;
+  top: 500px;
+  left: 100px;
+  width: 500px;
+  height: 40px;
+  border-radius: 50%;
+  background: radial-gradient(#805d78, rgba(0, 0, 0, 0) 70%);
+}
+
+.gal_block .clipped-border {
+  -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  padding: 5px;
+  background: -webkit-gradient(linear, left top, left bottom, from(grey), to(lightgrey));
+  background: linear-gradient(grey, lightgrey);
+  width: var(--border-width);
+  height: var(--border-height);
+  max-height: 350px;
+  max-width: 350px;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  position: absolute;
+  cursor: pointer;
+}
+
+.gal_block .clipped-border img {
+  width: 100%;
+  height: 100%;
+}
+
+.gal_block .clipped-border:before {
+  content: '';
+  position: absolute;
+  opacity: 0.5;
+  width: 450px;
+  height: 70px;
+  background: white;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.gal_block .clipped-border:hover:before {
+  -webkit-transform: translate(-100px, 400%) rotate(45deg);
+          transform: translate(-100px, 400%) rotate(45deg);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.gal_block .clipped-border:nth-child(2) {
+  top: 196px;
+  left: 118px;
+}
+
+.gal_block .clipped-border:nth-child(3) {
+  top: 0;
+  left: 235px;
+}
+
+.gal_block .clipped-border:nth-child(4) {
+  top: 196px;
+  left: 353px;
+}
+
+.gal_block .clipped-border:nth-child(5) {
+  top: 0;
+  left: 470px;
+}
+
+.gal_block #clipped {
+  -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+}
+
+.gal_block .clipped-border:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  z-index: 10;
+}
+
+@media screen and (max-width: 500px) {
+  .gal_block .clipped-border {
+    width: 100px;
+    height: 100px;
+  }
+  .gal_block .clipped-border:nth-child(2) {
+    top: 0;
+    left: 100px;
+  }
+  .gal_block .clipped-border:nth-child(3) {
+    left: 200px;
+  }
+  .gal_block .clipped-border:nth-child(4) {
+    top: 82px;
+    left: 50px;
+  }
+  .gal_block .clipped-border:nth-child(5) {
+    top: 82px;
+    left: 150px;
+  }
 }
 /*# sourceMappingURL=emks.css.map */
