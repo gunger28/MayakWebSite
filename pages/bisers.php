@@ -76,6 +76,11 @@
                     <a href="/index.html" class="item__link">
                         <li class="menu__item">Заказать</li>
                     </a>
+                    <a href="#top" class="item__link" >
+                        <li class="menu__item" >
+                            <img src="/assets/img/logo1.png" alt="image">
+                        </li>
+                    </a>
                     <a href="/pages/galery.html" class="item__link">
                         <li class="menu__item">Галерея</li>
                     </a>
@@ -137,7 +142,7 @@
                 </div>
                 <div class="wrapper__right">
                     <h2 class="right__title">
-                        Задать вопрос про бисерную мельницу
+                    Заказать или задать вопрос
                     </h2>
                     <div class="wrapper__info">
                         <p class="info__text">

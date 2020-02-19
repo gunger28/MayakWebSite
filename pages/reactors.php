@@ -138,7 +138,7 @@
                 </div>
                 <div class="wrapper__right">
                     <h2 class="right__title">
-                        Задать вопрос про реакторы
+                    Заказать или задать вопрос
                     </h2>
                     <div class="wrapper__info">
                         <p class="info__text">
