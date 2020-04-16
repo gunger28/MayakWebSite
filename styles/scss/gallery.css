@@ -9,12 +9,17 @@
 body {
   position: relative;
   min-width: 1280px;
+  background-color: rgba(118, 165, 218, 0.8);
+  background: url("/assets/img/backMenu2.jpg") repeat-x;
+  background-attachment: fixed;
 }
 
 .header {
   width: 100%;
   height: 200px;
   position: relative;
+  background: url("/assets/img/backMenu2.jpg") repeat-x;
+  background-attachment: fixed;
 }
 
 .header__logo {
@@ -40,17 +45,29 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  border: 1px solid #000;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 66, 104, 0.7)), to(rgba(104, 41, 41, 0)));
+  background-image: linear-gradient(rgba(62, 66, 104, 0.7), rgba(104, 41, 41, 0));
+  background-position: center;
 }
 
 .fixed {
+  margin-left: auto;
+  margin-right: auto;
   position: fixed;
   top: 0;
   height: 62px;
-  background: #fff;
-  z-index: 2;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#6574ff), to(rgba(221, 242, 255, 0)));
+  background-image: linear-gradient(#6574ff, rgba(221, 242, 255, 0));
+  z-index: 10;
   border: none;
   width: 100%;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.fixed:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#552eff), to(rgba(221, 242, 255, 0)));
+  background-image: linear-gradient(#552eff, rgba(221, 242, 255, 0));
 }
 
 .header__nav {
@@ -73,11 +90,11 @@ body {
   color: #000;
   text-decoration: none;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  padding: 15px;
+  padding: 1px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -92,7 +109,9 @@ body {
 }
 
 .item__link:hover {
-  background-color: lightgrey;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a00000), to(rgba(129, 33, 33, 0)));
+  background-image: linear-gradient(#a00000, rgba(129, 33, 33, 0));
+  border-bottom-right-radius: 18px;
 }
 
 .item__link:not(:last-child) {
@@ -153,14 +172,17 @@ body {
 .zagolov {
   margin-left: auto;
   margin-right: auto;
-  width: 1400px;
+  width: 100%;
   padding-bottom: 10px;
   border-bottom: 1px solid #303030;
   border-left: 1px solid #303030;
   border-right: 1px solid #303030;
+  background: url("/assets/img/backMenu2.jpg") repeat-x;
+  background-attachment: fixed;
 }
 
 .zagolov h2 {
+  font-family: 'Roboto';
   font-weight: 300;
   font-size: 30px;
   padding-top: 10px;
@@ -168,17 +190,22 @@ body {
 }
 
 .opis {
+  font-family: 'Roboto';
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(114, 139, 206, 0.9)), to(rgba(102, 135, 175, 0.9)));
+  background-image: linear-gradient(rgba(114, 139, 206, 0.9), rgba(102, 135, 175, 0.9));
   width: 1080px;
   margin: auto;
   border-bottom: 2px solid #1f1f1f;
   border-left: 2px solid #1f1f1f;
   border-right: 2px solid #1f1f1f;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 .opis p {
-  font-family: 'Segoe UI';
+  font-family: 'Roboto';
   text-indent: 5%;
   padding-left: 25px;
   padding-bottom: 5px;
@@ -215,7 +242,7 @@ body {
 }
 
 .gallery .row__img_small:hover {
-  background-color: lightgrey;
+  background-color: #415cb6;
 }
 
 .gallery .row__img_small img {
