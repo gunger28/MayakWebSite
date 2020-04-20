@@ -385,7 +385,7 @@ body {
 }
 
 .information .container .container__right form input {
-  margin-bottom: 13px;
+  margin-bottom: 8px;
   padding: 10px;
   width: 100%;
   font-size: 16px;
@@ -414,7 +414,7 @@ body {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 
 .information .container .container__right form #sendForm {
