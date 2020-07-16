@@ -231,6 +231,9 @@
             </div>
 
             <!-- footer -->
+            <div class="videoDiv">
+            <iframe width="560" height="315" style="margin-left: calc(50% - 280px);" src="https://www.youtube.com/embed/vwUVY21rDxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>>
             <footer class="footer" id="contacts">
         <div class="contDiv">
             Социальные сети:
