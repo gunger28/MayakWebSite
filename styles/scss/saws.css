@@ -1,0 +1,96 @@
+@charset "UTF-8";
+body {
+  left: 0;
+  top: 0;
+  display: -ms-grid;
+  display: grid;
+  background-color: #363636;
+  padding: unset;
+  max-height: 600vh;
+}
+
+body .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.7em;
+  top: 0;
+  z-index: 10;
+  width: 18.5%;
+  height: 1%;
+  position: absolute;
+}
+
+body .pic0 {
+  margin: unset;
+  background-color: blueviolet;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 770px;
+  background-size: 100% 100%;
+  background-image: url("/assets/Промышленная_ленточная_пилорама_Сатурн0.png");
+}
+
+body .pic1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: blueviolet;
+  position: relative;
+  width: 100%;
+  height: 770px;
+  background-size: 100% 100%;
+  background-image: url("/assets/Промышленная_ленточная_пилорама_Сатурн.png");
+}
+
+body .pic2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: blueviolet;
+  position: relative;
+  width: 100%;
+  height: 770px;
+  background-size: 100% 100%;
+  background-image: url("/assets/Промышленная_ленточная_пилорама_Сатурн1.png");
+}
+
+body .pic3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: blueviolet;
+  position: relative;
+  width: 100%;
+  height: 770px;
+  background-size: 100% 100%;
+  background-image: url("/assets/Промышленная_ленточная_пилорама_Сатурн2.png");
+}
+
+body .pic4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: blueviolet;
+  position: relative;
+  width: 100%;
+  height: 770px;
+  background-size: 100% 100%;
+  background-image: url("/assets/Промышленная_ленточная_пилорама_Сатурн3.png");
+}
+
+body .pic5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: blueviolet;
+  position: relative;
+  width: 100%;
+  height: 770px;
+  background-size: 100% 100%;
+  background-image: url("/assets/Промышленная_ленточная_пилорама_Сатурн4.png");
+}
+/*# sourceMappingURL=saws.css.map */
